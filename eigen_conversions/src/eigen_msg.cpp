@@ -44,6 +44,7 @@ void pointEigenToMsg(const Eigen::Vector3d &e, geometry_msgs::Point &m)
   m.x = e(0);
   m.y = e(1);
   m.z = e(2);
+  
 }
 
 namespace {
